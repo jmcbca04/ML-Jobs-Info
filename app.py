@@ -10,7 +10,7 @@ df = pd.read_csv('job_listings_with_coordinates.csv')
 
 # Define the tooltip for hover functionality
 tooltip = {
-    "html": "<b>Title:</b> {title} <br><b>Location:</b> {location}",
+    "html": "<b>Company:</b> {title} <br><b>Location:</b> {location}",
     "style": {
         "backgroundColor": "steelblue",
         "color": "white"
